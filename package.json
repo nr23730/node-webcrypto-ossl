@@ -41,7 +41,7 @@
     "mkdirp": "^0.5.1",
     "nan": "^2.13.2",
     "tslib": "^1.9.3",
-    "webcrypto-core": "^0.1.26"
+    "webcrypto-core": "nr23730/webcrypto-core#aes_ctr256"
   },
   "devDependencies": {
     "@types/mkdirp": "^0.5.2",

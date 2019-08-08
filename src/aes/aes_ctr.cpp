@@ -61,8 +61,8 @@ Handle<std::string> AES_CTR_encrypt
     }
 
 	LOG_INFO("length");
-	if (length < 1 || length > 128) {
-		THROW_ERROR("Incorrect value 'length'. Must be between 1 and 128.");
+	if (length < 1 || length > 256) {
+		THROW_ERROR("Incorrect value 'length'. Must be between 1 and 256.");
 	}
 
 	AES_KEY aesKey;
